@@ -31,17 +31,17 @@ btnSendElement.addEventListener('click', function() {
     let agePassenger = inputAgeElement.value
 
     switch (agePassenger) {
-        case nessuna : 'inputKmElement.value'
+        case 'nessuna' : 'inputKmElement.value'
         break
 
-        case minorenne : 'inputKmElement.value - discountUnderage'
+        case 'minorenne' : 'inputKmElement.value - discountUnderage'
         break
 
-        case over65 : 'inputKmElement.value - discount65'
+        case 'over65' : 'inputKmElement.value - discount65'
     }
 })
 
-console.log(namePassenger, kilometerTravel, agePassenger, btnSendElement)
+console.log(btnSendElement)
 
 
 
