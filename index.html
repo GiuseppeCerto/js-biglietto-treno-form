@@ -14,20 +14,20 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-4 d-flex flex-column align-items-center" id="name-section">
+                <div class="col-4 d-flex flex-column align-items-center">
                     <div class="mt-4">Nome e Cognome</div>
-                    <input type="text" name="credentials" class="form-control mt-4" placeholder="Inserisci le tue credenziali">
+                    <input id="name-section" type="text" name="credentials" class="form-control mt-4" placeholder="Inserisci le tue credenziali">
                 </div>
 
-                <div class="col-4 d-flex flex-column align-items-center" id="km-section">
+                <div class="col-4 d-flex flex-column align-items-center">
                     <div class="mt-4">Km da percorrere</div>
-                    <input type="text" name="kilometers" class="form-control mt-4" placeholder="Inserisci chilometri da percorrere">
+                    <input id="km-section" type="text" name="kilometers" class="form-control mt-4" placeholder="Inserisci chilometri da percorrere">
                 </div>
 
                 <div class="col-4 d-flex flex-column align-items-center" id="age-section">
                     <div class="mt-4">Età del passeggero</div>
-                    <select name="color" class="form-control mt-4" id="">
-                        <option value="">-- seleziona età --</option>
+                    <select name="age" class="form-control mt-4" id="">
+                        <option value="nessuna">-- seleziona età --</option>
                         <option value="minorenne">Minorenne</option>
                         <option value="over-65">Over 65</option>
                     </select>
